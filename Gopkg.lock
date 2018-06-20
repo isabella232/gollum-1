@@ -257,6 +257,7 @@
   version = "v1.0.4"
 
 [[projects]]
+  branch = "master"
   name = "github.com/trivago/gollum"
   packages = [
     "contrib/native/kafka/librdkafka",
@@ -269,9 +270,8 @@
     "producer/file",
     "router"
   ]
-  revision = "3d7deb20ed8e122987c422b03e6c7aac62fa8145"
+  revision = "489b5e66d50a126b7495904339e5128371d0b476"
   source = "github.com/instructure/gollum"
-  version = "v0.5.3"
 
 [[projects]]
   name = "github.com/trivago/grok"
@@ -367,6 +367,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d9e4f5600b7ecccab346724583d9f3be163af8c9b7c3ce88770579d1c7b63f49"
+  inputs-digest = "43a8b410a3afc4cca1466380a9bc7332672ca0dd48cc1ba6106ef2c24eb5f47d"
   solver-name = "gps-cdcl"
   solver-version = 1
