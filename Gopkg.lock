@@ -4,8 +4,8 @@
 [[projects]]
   name = "github.com/Shopify/sarama"
   packages = ["."]
-  revision = "3b1b38866a79f06deddf0487d5c27ba0697ccd65"
-  version = "v1.15.0"
+  revision = "35324cf48e33d8260e1c7c18854465a904ade249"
+  version = "v1.17.0"
 
 [[projects]]
   name = "github.com/abbot/go-http-auth"
@@ -77,8 +77,8 @@
 [[projects]]
   name = "github.com/bsm/sarama-cluster"
   packages = ["."]
-  revision = "24016d206c730276dfb58f802999066f2f4bfeaa"
-  version = "v2.1.11"
+  revision = "cf455bc755fe41ac9bb2861e7a961833d9c2ecc3"
+  version = "v2.1.13"
 
 [[projects]]
   name = "github.com/coreos/go-systemd"
@@ -257,6 +257,23 @@
   version = "v1.0.4"
 
 [[projects]]
+  name = "github.com/trivago/gollum"
+  packages = [
+    "contrib/native/kafka/librdkafka",
+    "core",
+    "core/components",
+    "filter",
+    "format",
+    "logger",
+    "producer/awss3",
+    "producer/file",
+    "router"
+  ]
+  revision = "3d7deb20ed8e122987c422b03e6c7aac62fa8145"
+  source = "github.com/instructure/gollum"
+  version = "v0.5.3"
+
+[[projects]]
   name = "github.com/trivago/grok"
   packages = ["."]
   revision = "af18cdd9faf3e06aedce0974c7e4012efc87658e"
@@ -350,6 +367,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "20fbf5e17cec36753234dcde7f6601019ad48275ad6decc99d28d696a1d33e14"
+  inputs-digest = "d9e4f5600b7ecccab346724583d9f3be163af8c9b7c3ce88770579d1c7b63f49"
   solver-name = "gps-cdcl"
   solver-version = 1
