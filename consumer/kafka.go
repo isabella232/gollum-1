@@ -251,6 +251,8 @@ func (cons *Kafka) Configure(conf core.PluginConfigReader) {
 		cons.config.Version = kafka.V0_11_0_0
 	case "1", "1.0", "1.0.0", "1.0.0.0":
 		cons.config.Version = kafka.V1_0_0_0
+	case "1.1", "1.1.0", "1.1.0.0":
+		cons.config.Version = kafka.V1_1_0_0
 	default:
 		cons.Logger.Warningf("Unknown kafka version given: %s. Falling back to 0.8.2", ver)
 		cons.config.Version = kafka.V0_8_2_2

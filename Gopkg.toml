@@ -23,7 +23,7 @@
 
 [[constraint]]
   name = "github.com/Shopify/sarama"
-  version = "1.15.0"
+  version = "1.17.0"
 
 [[constraint]]
   name = "github.com/abbot/go-http-auth"
@@ -51,7 +51,7 @@
 
 [[constraint]]
   name = "github.com/bsm/sarama-cluster"
-  version = "2.1.11"
+  version = "2.1.13"
 
 [[constraint]]
   name = "github.com/coreos/go-systemd"
@@ -128,3 +128,7 @@
 [[constraint]]
   branch = "v2"
   name = "gopkg.in/yaml.v2"
+
+[[override]]
+  name = "github.com/trivago/gollum"
+  source = "github.com/instructure/gollum"

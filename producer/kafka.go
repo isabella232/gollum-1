@@ -253,6 +253,12 @@ func (prod *Kafka) Configure(conf core.PluginConfigReader) {
 		prod.config.Version = kafka.V0_9_0_1
 	case "0.10", "0.10.0", "0.10.0.0":
 		prod.config.Version = kafka.V0_10_0_0
+	case "0.11", "0.11.0", "0.11.0.0":
+		prod.config.Version = kafka.V0_11_0_0
+	case "1", "1.0", "1.0.0", "1.0.0.0":
+		prod.config.Version = kafka.V1_0_0_0
+	case "1.1", "1.1.0", "1.1.0.0":
+		prod.config.Version = kafka.V1_1_0_0
 	default:
 		prod.Logger.Warning("Unknown kafka version given: ", ver)
 		parts := strings.Split(ver, ".")
